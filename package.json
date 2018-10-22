@@ -1,0 +1,20 @@
+{
+    "name": "i-yxs-tool",
+    "version": "1.0.0",
+    "description": "常用功能",
+    "main": "index.js",
+    "scripts": {
+        "dev": "cross-env NODE_ENV=dev webpack --mode development",
+        "build": "cross-env NODE_ENV=build webpack --mode production"
+    },
+    "keywords": [],
+    "author": "yxs",
+    "license": "ISC",
+    "devDependencies": {
+        "webpack": "^4.20.2",
+        "webpack-cli": "^3.1.2"
+    },
+    "dependencies": {
+        "cross-env": "^5.2.0"
+    }
+}
